@@ -1,0 +1,544 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+div {
+    display: block;
+}
+
+body {
+    background-image: url(/images/bg-top.jpg), url(/images/bg-bottom.jpg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: top left, bottom left;
+    background-color: #f2f2f2;
+    line-height: 1;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    min-height: 1350px;
+
+    background-size: auto;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.header-top ul {
+    list-style: none;
+}
+
+.header-top li {
+    color: #fff;
+    display: inline-table;
+    padding: 0px 10px 0px 10px;
+}
+
+.header-top-left li {
+
+    padding: 0px 10px 0px 10px;
+    border-right: 1px solid #fff;
+
+}
+
+.header {
+    color: #fff;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.header-top {
+    width: 992px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 18px;
+}
+
+.header-top-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header-bottom-bor {
+    height: 477px;
+
+}
+
+.content {
+    max-width: 1010px;
+    margin: 0 auto;
+}
+
+
+.content-top {
+    height: 265px;
+    width: 1020px;
+    background-color: #1f3252;
+    padding: 3px;
+    display: flex;
+    text-align: center;
+}
+
+.content-top-left-item {
+    width: 100%;
+    height: 50%;
+}
+
+.content-top-left {
+    height: 100%;
+    width: 249px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    position: relative;
+
+
+}
+
+.content-top-left-dowload {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background-image: url(/images/btn_taigame.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.content-top-left-item {
+    width: 100%;
+    height: 50%;
+
+
+}
+
+.content-top-left-sign {
+    display: inline-block;
+    width: 100%;
+    height: 50%;
+    background-image: url(/images/buttons-left.png);
+
+    background-position: 2px -2px;
+
+}
+
+.content-top-left-coin {
+    display: inline-block;
+    width: 100%;
+    height: 50%;
+
+    background-image: url(/images/buttons-left.png);
+    background-position: 2px -65px;
+    margin-top: -3px;
+}
+
+.content-top-left-img {
+    width: 105px;
+    height: 230px;
+    position: absolute;
+    left: -80px;
+    top: -2px;
+}
+
+.content-top-center {
+    height: 100%;
+    width: 492px;
+    margin: 0px 14px 0px 14px;
+    position: relative;
+}
+
+.center-img {
+    width: 100%;
+    height: 100%;
+}
+
+.center-img img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: block;
+    max-width: 100%;
+}
+
+.content-top-right {
+    height: 100%;
+    width: 242px;
+    position: relative;
+}
+
+.content-top-right-item {
+    position: absolute;
+    top: -8px;
+    width: calc(100% + 25px);
+    height: 230px;
+    background-image: url(./images/buttons-right.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.right-item {
+    width: calc(100% - 25px);
+    height: 226px;
+    position: absolute;
+    top: 8px;
+    display: grid;
+    grid-template-columns: 116px 116px;
+    column-gap: 8px;
+    row-gap: 5px;
+}
+
+.right-item a {
+    display: block;
+    width: 116px;
+    height: 108px;
+
+}
+
+.right-hotline {
+    position: absolute;
+    top: 225px;
+    width: 100%;
+    height: 34px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.hotline {
+    display: block;
+    width: 100%;
+    height: 30px;
+    background-image: url(./images/hotline.png);
+    border: none;
+}
+
+.content-bottom {
+    height: 800px;
+    padding-top: 5px;
+    position: relative;
+
+}
+
+.content-bottom-left {
+    width: 755px;
+}
+
+.center-left-item {
+    text-align: center;
+    display: flex;
+    width: 100%;
+    height: 85px;
+    justify-content: space-between;
+}
+
+.center-left-item a {
+    display: block;
+    width: 250px;
+    height: 100%;
+}
+
+.center-item-img1 {
+    background-image: url(./images/cuuamlenh-vip-giftcode.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.center-item-img2 {
+    background-image: url(./images/cuuamlenh-vip-giftcode.png);
+    background-position: -254px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.center-item-img3 {
+    background-image: url(./images/cuuamlenh-vip-giftcode.png);
+    background-position: -512px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.bottom-left-center {
+    margin-top: 10px;
+    background-color: #1f3252;
+    height: 600px;
+}
+
+.left-center-header {
+    background-image: url(./images/news-header-bg.png);
+    background-size: cover;
+    width: 100%;
+    height: 55px;
+}
+
+.bottom-left-center ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 5px;
+}
+
+.bottom-left-center a {
+    display: block;
+    color: #c7a87a;
+    font-weight: 700;
+    width: 100px;
+    text-align: center;
+}
+
+.left-center-content {
+    width: 100%;
+    border: #1f3252 5px solid;
+    background-color: white;
+    padding: 15px 55px 25px 15px;
+}
+
+.content-main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.main-link1 {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    gap: 25px;
+}
+
+.link-img {
+    width: 150px;
+    height: 100%;
+    border: 5px solid #c7a87a;
+
+}
+
+.link-img a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.img1 {
+    background-image: url(./images/news-dang-nhap.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.link-content {
+    width: 490px;
+    height: 100%;
+
+}
+
+.link-content a {
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+    padding-left: 10px;
+    border-left: 5px #b70f0b solid;
+    font-size: 1.35em;
+    line-height: 1.1;
+    color: #b70f0b;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.link-content h2 {
+    padding: 10px 0;
+    font-size: 12px;
+    color: #aaaaaa;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.link-content p {
+    font-size: 14.5px;
+    color: #777777;
+    line-height: 1.2;
+}
+
+.main-link2 {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    gap: 25px;
+}
+
+.img2 {
+    background-image: url(./images/news-su-kien.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main-link3 {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    gap: 25px;
+}
+
+.img3 {
+    background-image: url(./images/news-event-thang3.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main-end {
+    height: 60px;
+    position: relative;
+}
+
+.end-left {
+    position: absolute;
+    bottom: 0;
+    right: 105px;
+}
+
+.end-right {
+    position: absolute;
+    bottom: 0;
+    right: 0px;
+}
+
+.main-end button {
+    display: block;
+    width: 95px;
+    height: 48px;
+    background-color: #1f3252;
+    border: 5px #aaaaaa solid;
+    font-family: "Roboto Slab", serif;
+    color: #aaaaaa;
+    text-transform: uppercase;
+}
+
+.content-right {
+    position: absolute;
+    top: 5px;
+    right: 0;
+    width: 245px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 5px;
+    background: #1f3252;
+}
+
+.content-right a {
+    display: inline-block;
+    margin: 0 auto;
+    width: 228px;
+    height: 53px;
+
+}
+
+.link-right-1 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(./images/links-right.png);
+}
+
+.link-right-2 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(./images/links-right.png);
+    background-position: 0px -59px;
+}
+
+.link-right-3 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(./images/links-right.png);
+    background-position: 0px -119px;
+}
+
+.link-right-4 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(./images/links-right.png);
+    background-position: 0px -179px;
+}
+
+.link-right-5 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(./images/links-right.png);
+    background-position: 0px -224px;
+}
+
+.bor {
+    height: 130px;
+}
+
+.final-small {
+    margin-bottom: 35px;
+    margin-top: 125px;
+    width: 100%;
+    height: 95px;
+    position: relative;
+
+}
+
+.final-small {
+    max-width: 1010px;
+    margin: 0 auto;
+}
+
+.final-link a {
+    display: inline-block;
+    height: auto;
+    width: auto;
+    padding: 0 3px;
+    text-align: center;
+    color: black;
+}
+
+.final-link {
+    margin: 0 auto;
+    font-size: 12px;
+    color: black;
+    height: 23.75px;
+    text-align: center;
+}
+
+.final-border {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.final-center {
+    margin: 0 auto;
+    font-size: 12px;
+    color: black;
+    height: 23.75px;
+    text-align: center;
+}
+
+#Final {
+    width: 100%;
+    height: 112px;
+
+}
+
+.final-logo {
+    position: absolute;
+    top: -20px;
+
+}
+
+.img {
+    display: block;
+    max-width: 100%;
+}
